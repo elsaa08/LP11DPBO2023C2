@@ -1,0 +1,22 @@
+<?php
+
+interface KontrakPasienView
+{
+    public function tampil();
+    public function edit($id);
+    public function add();
+}
+
+interface KontrakPasienPresenter
+{
+    public function prosesDataPasien();
+    public function getId($i);
+    public function getNik($i);
+    public function getNama($i);
+    public function getTempat($i);
+    public function getTl($i);
+    public function getGender($i);
+    public function getemail($i);
+    public function getnotelp($i);
+    public function getSize();
+}

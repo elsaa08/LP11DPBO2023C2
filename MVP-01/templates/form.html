@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CRUD</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+  <script src="style/jquery.min.js"></script>
+  <script src="style/popper.min.js"></script>
+  <script src="style/bootstrap.min.js"></script>
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.php">WIW</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+ <div class="col-lg-6 m-auto">
+ 
+ <form method="post">
+ 
+ <br><br><div class="card">
+ 
+ <div class="card-header bg-primary">
+ <h1 class="text-white text-center">  DATA_TITLE PASIEN </h1>
+ </div><br>
+ <input type="hidden" name="id" value="GET_ID"class="form-control" > <br>
+ <label> NIK : </label>
+ <input type="text" name="nik" class="form-control" value="DATA_NIK"> <br>
+
+ <label> NAMA : </label>
+ <input type="text" name="nama" class="form-control" value="DATA_NAMA"> <br>
+
+ <label> TEMPAT : </label>
+ <input type="text" name="tempat" class="form-control" value="DATA_TEMPAT"> <br>
+ <label> TANGGAL LAHIR : </label>
+ <input type="date" name="tl" class="form-control" value="DATA_TGL"> <br>
+<label> GENDER : </label>
+ <input type="text" name="gender" class="form-control" value="DATA_GENDER"> <br>
+
+ <label> EMAIL : </label>
+ <input type="text" name="email" class="form-control" value="DATA_EMAIL"> <br>
+ <label> NO TELEPON : </label>
+ <input type="text" name="telp" class="form-control" value="DATA_TELP"> <br>
+
+
+ <button class="btn btn-success" type="submit" name="DATA_BUTTON"> Submit </button><br>
+ <a class="btn btn-info" type="submit" name="cancel" href="index.php"> Cancel </a><br>
+
+ </div>
+ </form>
+ </div>
+</body>
+</html>
